@@ -1,0 +1,15 @@
+{
+  "name": "ReactiveImageView",
+  "version": "1.0.0",
+  "main": "js/ReactiveImageView",
+  "plugins": [
+    "lotus-coffee"
+  ],
+  "scripts": {
+    "build": "coffee-build -v 1.11.x -b -o js src",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "modx": "aleclarson/modx#1.0.0"
+  }
+}
